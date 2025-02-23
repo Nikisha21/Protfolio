@@ -1,0 +1,194 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   list-style: none;
+   font-size: 10px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+nav{
+    background-color: #0a1929;
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+
+}
+
+nav h1{
+width: 50%;
+color: white;
+font-size: 3.2rem;
+margin: 10px;
+color: papayawhip;}
+
+nav ul{
+    width:50%;
+    display: flex;
+   justify-content: space-around;
+   color: white;
+   font-size: 2rem;
+}
+
+nav ul li{
+    font-size: 2rem;
+}
+
+li:hover{
+    color:#d14dcb;
+    cursor: pointer;
+}
+
+nav h1 span{
+    font-size: 2.6rem;
+    color: #d14dcb;
+    ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+width: 100vw;
+height: 91vh;
+display: flex;
+background-color:#0a1929
+}
+.text{
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 253, 253);
+    line-height: 3.7rem;
+    
+}
+
+.img img{
+    display: flex;
+    height: 36rem;
+    width: 40rem;
+    margin-top: 9rem;
+    margin-right: 1rem;
+    object-fit: cover;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+.text p{
+color: rgb(185, 132, 47);
+font-size: 1.9rem;
+}
+
+.text h1{
+    font-size: 3rem;
+}
+.text h2{
+    font-size: 2.8rem;
+}
+h2 span{
+color: rgb(177, 72, 226);
+    font-size: 2.5rem;
+}
+
+.fa-brands.fa-facebook{
+font-size: 25px;
+width: 20px;
+height: 20px;
+}
+
+.fa-brands.fa-instagram{
+    font-size: 25px;
+    width: 20px;
+    height: 20px;
+    margin-left: 2rem;
+}         
+
+.fa-brands.fa-tiktok{
+    font-size: 25px;
+    width: 20px;
+    height: 20px;
+    margin-left: 2rem;
+}
+
+.services{
+ height: 50vh;
+ display: flex;
+ align-items: center;  
+ justify-content: center;
+ margin-bottom: 9rem;
+ padding: 0.6rem;
+}
+
+.services h2{
+    margin-top: 2rem;
+    color: #d4d6ec;
+    font-size: 2.8rem;
+}
+
+.services p{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: white;
+}
+
+.services .tiktok:hover{
+    cursor: pointer;
+   background-color: #0e193d;
+   box-shadow: 6px 5px 5px #081d64;
+}
+
+.services .insta:hover{
+    cursor: pointer;
+    background-color: #0e193d;
+    box-shadow: 6px 5px 5px #081d64;
+}
+
+.services .fb:hover{
+    cursor: pointer;
+    background-color: #0e193d;
+    box-shadow: 6px 5px 5px #081d64;
+}
+
+.services .fb{
+background-color: #0a1929;
+height: 28rem;
+width: 40rem;
+padding: 20px;
+ gap: 9rem;
+ margin-top: 10rem;
+ 
+ border-radius: 50% 20% / 10% 40%;
+}
+
+.services .insta{
+    background-color: #0a1929;
+    height: 28rem;
+    width: 40rem;
+    padding: 20px;
+     gap: 9rem;
+     margin-top: 10rem;
+     margin-left: 2rem;
+     border-radius: 50% 20% / 10% 40%;
+}
+
+.services .tiktok{
+    background-color: #0a1929;
+    height: 28rem;
+    width: 40rem;
+    padding: 20px;
+     gap: 9rem;
+     margin-top: 10rem;
+     margin-left: 2rem;
+     border-radius: 50% 20% / 10% 40%;
+}
+  
+.medias{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    color: #061852;
+}
