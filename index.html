@@ -18,10 +18,12 @@
          <li>Services</li>
         </ul>
     </nav>
+
+    
   <div class="main">
     <div class="text">
         <p>My name is Nikisha Bhaila</p>
-        <h1>I'm a Web Developer </h1>
+        <h1 id="typeWriter"> </h1>
 
         <h2>experienced in <span>JAVA SCRIPT</span></h2>
 
@@ -36,7 +38,9 @@
         <img src="image/snapchat.jpg" alt="" srcset="">
     </div>
 </div>
+
 <h1 class="medias" >Social Medias</span></h1>
+
     <section class="services">
         <div class="fb"><img src="./image/Facebook_Logo_2023.png" alt="This is image of facebook" style="height: 120px;">
         <h2>Web Developer</h2>
@@ -54,7 +58,27 @@
             <h2>Content Creator</h2>
         <p>Turn your dream into reality by grabbing the services and content i post on social medias </p> 
         </div>
-        </section
-        >
+        </section>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+        <script>
+var app = document.getElementById('typeWriter');
+
+var typewriter = new Typewriter(app, {
+  loop: true,
+  delay: 75,
+});
+
+typewriter
+  .pauseFor(2500)
+  .typeString("<h2> I am a developer </h2>")
+  .pauseFor(300)
+  .deleteChars(10)
+  .typeString('<h1 style="color #b148e2"> web Developer </h1>')
+  .typeString('')
+  .pauseFor(1000)
+  .start();
+</script>
 </body>
 </html>
